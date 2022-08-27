@@ -1,4 +1,4 @@
-proteins="./*.faa"
+proteins="./*_translated_cds.faa.gz"
 for protein in $proteins
 do
         grep ">"  $protein > $protein.1
