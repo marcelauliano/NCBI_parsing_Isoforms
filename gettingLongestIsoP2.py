@@ -1,6 +1,9 @@
 import pandas as pd
 import sys
 input1=sys.argv[1]
+
+#input1 is a tab separated file containing the full path to two files created with gettingLongestisP1.sh. 
+#Column one if *translated_cds.faa.protgene and column two is *translated_cds.faa.length
 with open(input1) as f:
     for i in f:
         in_files=i.split("\t")
