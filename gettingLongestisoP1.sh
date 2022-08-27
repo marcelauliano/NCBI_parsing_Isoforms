@@ -1,4 +1,4 @@
-proteins="./*.fa"
+proteins="./*.faa"
 for protein in $proteins
 do
         grep ">"  $protein > $protein.1
